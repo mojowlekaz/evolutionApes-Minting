@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.Mint{
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background:  #252525;
+    display:grid;
+
+    
+}
+
+.big-box{
+    background:  #252525;
+    height: 550px;
+    width: 950px;
+    border: 2px solid white;
+    padding: 40px;
+}
+.h1{
+    color: #ffff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: monospace;
+}
+p{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+label{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h2{
+    color: #26c2d5;
+    align-items: center;
+    font-size: 40px;
+    font-family: monospace;
+}
+.box{
+    background:  #252525;
+    height: 400px;
+    width: 350px;
+    padding: 50px;
+}
+.content{
+    top: 30px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffff;
+    font-weight: 400;
+}
+
+.vertical-1 {
+    border-left: 2px solid #ffff;
+    height: 330px;
+    position:absolute;
+    left: 50%;
+    top: 23%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    height:  60px;
+    width: 50px;
+    position: absolute;
+    top: -90px;
+    left: 50px;
+    width: 500px;
+    transform: translate(-56deg, -50deg);
+    perspective: 1000px;
+}
+.boxes{
+    height: 250px;
+    width: 250px;
+    top: 100px;
+    position: absolute;
+    left: 100px;
+    transform-style: preserve-3d;
+    /* transform:rotate(-90deg) */
+    /* transform: rotateY(130deg); */
+}
+
+  
+
+a{
+    background-color: #26c2d5;
+    height: 2000px;
+ width: 100px;
+}
+
+.btt-1{
+    background-color: #1d9bf0;
+    box-shadow: none;
+}
+.card{
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    padding: 100px 0px;
+    background-color: aliceblue;
+    border: 3px solid black;
+    font-size:  32px;
+    box-sizing: border-box;
+    position: absolute;
+
+}
+#front{
+    transform: translateZ(125px);
+    /* background-image: url(/); */
+}
+#back{
+    transform: translateZ(-125px);
+}
+#left{
+    right: 125px;
+    transform: rotateY(-90deg);
+}
+#right{
+    left: 125px;
+    transform: rotateY(90deg);
+}
+#top{
+    bottom: 125px;
+    transform: rotateX(90deg);
+}
+#bottom{
+    top: 125px;
+    transform: rotateX(-90deg);
+}
